@@ -1,4 +1,4 @@
-Gladiators
+SSIRC for NodeJS
 ==========
 
-first person shooter using webgl and nodejs
+Secure Sockets Internet Relay Chat written in NodeJS
