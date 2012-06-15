@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel='stylesheet' type='text/css' href='css/bootstrap.css'>
+        <link rel='stylesheet' type='text/css' href='css/main.css'>
+        <script src="./js/jquery.js"></script>
+        <script src="./socket.io/socket.io.js"></script>
+        <script src="./js/commands.js"></script>
+        <script src="./js/chat.js"></script>
+    </head>
+    <body>
+        <div class="navbar navbar-fixed-top">
+          <div class="navbar-inner">
+            <div class="container">
+              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a>
+              <a class="brand" href="#">SSIRC</a>
+              <div class="nav-collapse">
+                <ul class='nav'>
+                    <li><a href='#'>Current Channel: <span class='id' id='channel'>default</span></a></li>
+                </ul>
+                <ul class="nav pull-right">
+                  <li><a href="#">Username: <span class='id' id='user'>User1</span></a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </div>
+        </div>
+        <div class='container pulldown'>
+            <div class='span8 dark-dark-theme'>
+                 <div class=''>
+                    <div class='center-align'>
+                        <div id="chatWindow">  
+                        </div>
+                    </div>
+                    <div class='center-align'>
+                        <input class='dark-theme' id='chatOut' style="width:99%; height:30px;" type='text'/>
+                    </div>
+                </div>
+            </div>
+            <div class='span3'>
+                 <div class='well dark-dark-theme'>
+                    <div id="userList" class='dark-dark-theme' style="height:80%; overflow:auto;" class='well'>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+.id {
+    font-weight:bold !important;
+}
+
+body {
+    background-color:black;
+}
+
+.pulldown {
+    margin-top:60px;
+    margin-left:0px;
+}
+
+.user {
+    color: lime;
+    font-weight:bold !important;
+}
+
+.dark-dark-theme {
+    background-color:#181818;
+    color :#F0F0F0 ;
+}
+
+.dark-theme {
+    background-color:#505050 ;
+    color:#F0F0F0 ;
+}
+
+.center-align {
+    text-align:center;
+}
+
+#chatWindow {
+    height:80%; 
+    width:90%;
+    margin-left:5%;
+    overflow:auto;
+    text-align:justify;
+}
